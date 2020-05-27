@@ -12,6 +12,10 @@
     * 测试运行 `docker run --name e_go1 --rm -it docker_go:0.1.0 bash`
 
 ## 附录
+### 镜像构建层级概览
+
+![](docs/docker-env-layout.jpg)
+
 ### 镜像 tags 意义
 * `alpine` 就是精简版，而 `buster`,`stretch`,`jessie` 是基于 Debian 套件发行版的代码版本名称来命名。
 * Debian 是另一个 Linux 系统发行版，类似于 Ubuntu
