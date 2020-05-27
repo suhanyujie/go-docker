@@ -23,6 +23,9 @@ Debian 8（jessie） — 更旧的稳定版（oldoldstable）
 Debian 7（wheezy） — 被淘汰的稳定版
 ```
 
+### 拉取镜像慢
+* 可以使用国内镜像源 https://www.cnblogs.com/zhangrui153169/p/12699077.html
+
 ## 参考
 * 镜像名称的意义 https://segmentfault.com/q/1010000021722055
 * docker-compose file https://docs.docker.com/compose/compose-file/
