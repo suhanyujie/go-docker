@@ -1,0 +1,12 @@
+version: "3"
+services:
+  docker_go:
+    container_name: "docker_go"
+    image: "docker_go:0.1.0"
+    ports:
+      - 9001:9001
+    volumes:
+      - ../go-cms:/go/src/exampleProject
+    entrypoint: ["tail", "-f", "/dev/null"]
+    environment:
+      APP_ENV: dev
