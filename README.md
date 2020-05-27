@@ -25,3 +25,4 @@ Debian 7（wheezy） — 被淘汰的稳定版
 
 ## 参考
 * 镜像名称的意义 https://segmentfault.com/q/1010000021722055
+* docker-compose file https://docs.docker.com/compose/compose-file/
