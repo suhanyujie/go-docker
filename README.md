@@ -41,10 +41,11 @@ Debian 7（wheezy） — 被淘汰的稳定版
     * 单点问题
     * 日志问题
     * 代码风格，使用 `gofmt`(https://gocn.vip/wiki/effective) 解决
-    * debug，使用 [delve](https://github.com/go-delve/delve) 解决，可用它进行[命令行调试](https://davidlovezoe.wordpress.com/2019/01/24/golang-debug-intermediate/)
+    * debug，使用 [delve](https://github.com/go-delve/delve) 解决，可用它进行[命令行调试](https://davidlovezoe.wordpress.com/2019/01/24/ golang-debug-intermediate/) 以及远程调试
 
 ## 参考
 * 镜像名称的意义 https://segmentfault.com/q/1010000021722055
 * docker-compose file https://docs.docker.com/compose/compose-file/
 * go 模块代理 https://goproxy.cn/
 * 5分钟用Docker搭建开发环境 https://cloud.tencent.com/developer/article/1584875
+* go 开发调试3篇 https://gocn.vip/topics/9197
