@@ -12,7 +12,7 @@
     * 测试运行 `docker run --name e_go1 --rm -it docker_go:0.1.0 bash`
 
 ### 使用
-* 在当前目录下，使用 docker-compose 启动（推荐）：`docker-compose up --build`
+* 在当前目录下，使用 docker-compose 启动（推荐）：`docker-compose up --build -d`
 
 ## 附录
 ### 镜像构建层级概览
