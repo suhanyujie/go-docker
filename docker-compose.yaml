@@ -6,7 +6,7 @@ services:
     ports:
       - 9001:9001
     volumes:
-      - ../exampleProject:/go/src/exampleProject
+      - ./example/project1:/go/src/exampleProject1
     entrypoint: ["tail", "-f", "/dev/null"]
     environment:
       APP_ENV: dev
